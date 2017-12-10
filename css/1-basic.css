@@ -1,0 +1,29 @@
+body {}
+
+h1 {
+  font-family: Times;
+  font-size: 18px;
+  color: black;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 11px;
+  font-style: italic;
+  color: grey;
+}
+
+p {
+  font-family: Arial;
+  font-size: 10px;
+  color: grey !important;
+}
+
+p.red {
+  color: red;
+}
+
+time {
+   color: black;
+    text-transform: uppercase;
+}
