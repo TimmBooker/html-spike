@@ -1,11 +1,15 @@
 <!doctype html>
-<html>
+<html lang="en">
+
 	<head>
+		<meta charset="utf-8">
+		<title>Styled!</title>
 		<link rel="stylesheet" href="css/1-basic.css">
 	</head>
-	<body>
-		<section>
 
+	<body>
+
+		<div id="container">
 			<header>
 				<h1>Ryan Morris</h1>
 				<h2>Man of mystery</h2>
@@ -15,10 +19,13 @@
 			  <ul>
 			  	<li><a href="#">About Me</a></li>
 			  	<li><a href="#">Home</a></li>
-		  		</ul>
+		  	  </ul>
 			</nav>
 
-			<main>
+			<!-- could be div#main or section -->
+			<!-- i feel like it could be syndicated -->
+			<article>
+
 				<section id="about-me">
 					<p>Vivamus tincidunt ante libero, ac porta ante faucibus sed. <strong>Sed ultricies</strong> justo ut orci rhoncus, et maximus nulla vestibulum. Ut quis scelerisque lectus, id viverra nisl. Sed vehicula sapien vitae quam hendrerit, eu sodales sem tempor.</p>
 
@@ -35,19 +42,20 @@
 					 <li><a href="#">Grand Budapest Hotel</a></li>
 					 <li><a href="#">Alien</a></li>
 					</ul>
-				</div>
 				</section>
 
 				<footer>
 					<time datetime="2018-12-12">Created Dec 12, 2018</time>
 				</footer>
 
-			</main>
-		</section>
+			</article>
 
-		<footer>
-			<h6><span class="copyright">(c) 2018</span></h6>
-		</footer>
+			<footer>
+				<h6><span class="copyright">(c) 2018</span></h6>
+			</footer>
+
+		</div>
+
 	</body>
 </html>
 
